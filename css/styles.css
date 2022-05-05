@@ -22,6 +22,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     margin: 0;
+    width: 1600px;
 }
 
 .visually-hidden {
@@ -49,7 +50,7 @@ h2 {
 /* Логотип */
 
 .page-header {
-    background-color: peru;
+    /*background-color: peru;*/
     border-bottom: 1px solid #ECECEC;
     margin-left: auto;
     margin-right: auto;
@@ -58,11 +59,11 @@ h2 {
 
 
 .container {
-    background-color: powderblue;
+    /*background-color: powderblue;
+    outline: 2px solid tomato;*/
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    outline: 2px solid tomato;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -119,7 +120,17 @@ h2 {
     display: flex;
     margin-left: 331px;
     align-items: center;
+
     
+}
+.nav-portfolio {
+    margin-left: 50px;
+    margin-right: 51px;
+}
+
+.tel-position {
+    margin-left: 50px;
+ 
 }
 
 .site-nav .link {
@@ -174,7 +185,7 @@ h2 {
 .section {
     padding-top: 94px;
     padding-bottom: 0px;
-    outline: 5px solid #331e9e;
+    /*outline: 5px solid #331e9e;*/
 }
 .hero {
     background-color: #2F303A;
@@ -243,8 +254,11 @@ h2 {
     margin-top: 0px;
     margin-bottom: 10px; /*проверить по нижнему контейнеру*/
 }
-.our-priorities-flex {
+.our-priorities-box {
     display: flex;
+}
+.prioritie-flex {
+    margin-right: 30px;
 }
 
 .priorities-text {
@@ -379,6 +393,13 @@ h2 {
 }
 /* Портфолио */
 
+.btn-flex {
+    display: flex;
+    justify-content: center;
+    /*margin-right: 8px;*/
+    
+}
+
 .filter-flex {
     display: flex;
     flex-wrap: wrap;
@@ -387,7 +408,7 @@ h2 {
     
 }
 .filter-card {
-    /*border: 1px solid #EEEEEE; разобраться*/
+    /*border: 1px solid #EEEEEE;*/
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 90px) / 3);
@@ -398,7 +419,7 @@ h2 {
 .section-portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
-    outline: 5px solid #331e9e;
+    /*outline: 5px solid #331e9e;*/
 }
 
 .filter-button {
@@ -412,6 +433,7 @@ h2 {
     border-radius: 4px;
     padding: 6px 22px;
     border-width: 0px;
+    margin-left: 8px;
     /*убрать на финише тольщину border*/
 
 }
