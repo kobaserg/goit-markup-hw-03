@@ -11,6 +11,8 @@ html {
     --secondary-bgc: #F5F4FA;
     --header-cl: #212121;
     --header-cl-hover: #2196F3;
+    --our-team-card-cl: #FFFFFF;
+    --portfolio-card-cl: #FFFFFF;
 }
 
 body {
@@ -51,9 +53,10 @@ h2 {
     border-bottom: 1px solid #ECECEC;
     margin-left: auto;
     margin-right: auto;
-    /*width: 1600px;
-    height: 80px;*/
+   
 }
+
+
 .container {
     background-color: powderblue;
     margin-left: auto;
@@ -96,6 +99,28 @@ h2 {
 
 
 /* Стилизация NAV */
+.nav-box-flex {
+   display: flex;
+    
+    
+}
+.header-flex {
+    display: flex;
+    
+    
+}
+.site-nav-flex {
+    display: flex;
+    margin-left: 93px; 
+    align-items: center;
+    
+}
+.auth-nav-flex {
+    display: flex;
+    margin-left: 331px;
+    align-items: center;
+    
+}
 
 .site-nav .link {
     color: var(--header-cl);
@@ -104,6 +129,7 @@ h2 {
     line-height: 1.15;
 
 }
+   
 .site-nav .link:focus,
 .site-nav .link:hover {
     color: var(--header-cl-hover);
@@ -121,6 +147,7 @@ h2 {
     line-height: 1.15;
     
 }
+
 .auth-nav .link:focus,
 .auth-nav .link:hover {
     color: var(--header-cl-hover);
@@ -132,6 +159,7 @@ h2 {
     padding-top: 24px;
     
 }
+
 .logo-box {
     box-sizing: border-box;
     width: 145px;
@@ -205,6 +233,7 @@ h2 {
     line-height: 1.9;   
 }
 
+
 .our-priorities {
     color: #212121;
     font-weight: 700;
@@ -213,6 +242,9 @@ h2 {
     text-transform: uppercase;
     margin-top: 0px;
     margin-bottom: 10px; /*проверить по нижнему контейнеру*/
+}
+.our-priorities-flex {
+    display: flex;
 }
 
 .priorities-text {
@@ -239,8 +271,35 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+.What-we-do-flex {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+
+}
+.what-we-do-img {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 90px) / 3);
+}
 .sec-our-team {
     background-color: var(--secondary-bgc);
+}
+
+.our-team-flex {
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.our-team-card {
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 120px) / 4);
+    background-color: var(--our-team-card-cl);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .our-team {
@@ -251,6 +310,7 @@ h2 {
     text-align: center;
 
    padding-top: 94px;
+   padding-bottom: 50px;
     
 }
 
@@ -260,12 +320,15 @@ h2 {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .team-expert {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 /* Футер */
@@ -316,6 +379,22 @@ h2 {
 }
 /* Портфолио */
 
+.filter-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+    
+}
+.filter-card {
+    /*border: 1px solid #EEEEEE; разобраться*/
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc((100% - 90px) / 3);
+    background: var(--portfolio-card-cl);
+    
+}
+
 .section-portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -354,6 +433,7 @@ h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    padding-bottom: 4px;
     
 }
 

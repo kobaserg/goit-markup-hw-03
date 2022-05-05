@@ -21,18 +21,20 @@
     <!--Основная навигация страницы-->
 
     <header class="page-header">
-      <div class="container">
-        <nav class="nav-box">
-          <a class="link" href="index.html">
-            <p class="logo-box"><span class="logoweb">Web</span><span class="logostudio">Studio</span></p>
+      <div class="container header-flex">
+        <nav class="nav-box-flex">
+          <a class="link nav-box" href="index.html">
+            <p class="logo-box">
+              <span class="logoweb">Web</span><span class="logostudio">Studio</span>
+            </p>
           </a>
-          <ul class="site-nav list-decor">
+          <ul class="site-nav list-decor site-nav-flex">
             <li><a class="link-current link" href="./index.html">Студия</a></li>
             <li><a class="link" href="./portfolio.html">Портфолио</a></li>
             <li><a class="link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="auth-nav list-decor">
+        <ul class="auth-nav list-decor auth-nav-flex">
           <li><a class="link" href="">info@devstudio.com</a></li>
           <li><a class="link" href="">+38 096 111 11 11</a></li>
         </ul>
@@ -49,7 +51,7 @@
 
       <section class="section">
         <div class="container">
-          <ul class="list-decor">
+          <ul class="list-decor our-priorities-flex">
             <li>
               <h2 class="our-priorities">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
               <p class="priorities-text">
@@ -83,16 +85,20 @@
       <section class="section">
         <div class="container">
           <h2 class="What-we-do">Чем мы занимаемся</h2>
-          <ul class="list-decor">
-            <li><img src="./images/What-we-do/project.jpg" alt="Разработка" width="370" /></li>
-            <li>
-              <img
+          <ul class="list-decor What-we-do-flex">
+            <li class="what-we-do-img">
+              <img class="image" src="./images/What-we-do/project.jpg" alt="Разработка" width="370" />
+            </li>
+            <li class="what-we-do-img">
+              <img class="image"
                 src="./images/What-we-do/smartphone.jpg"
                 alt="Для мобильных телефонов"
                 width="370"
               />
             </li>
-            <li><img src="./images/What-we-do/tablet.jpg" alt="Для планшетов" width="370" /></li>
+            <li class="what-we-do-img">
+              <img class="image" src="./images/What-we-do/tablet.jpg" alt="Для планшетов" width="370" />
+            </li>
           </ul>
         </div>
       </section>
@@ -102,14 +108,14 @@
       <section class="sec-our-team section">
         <div class="container">
           <h2 class="our-team">Наша команда</h2>
-          <ul class="list-decor">
-            <li>
-              <img src="./images/Our-team/productdisigner.jpg" alt="Дизайнер" width="270" />
+          <ul class="list-decor our-team-flex">
+            <li class="our-team-card">
+              <img class="image" src="./images/Our-team/productdisigner.jpg" alt="Дизайнер" width="270" />
               <p class="team-name">Игорь Демьяненко</p>
               <p class="team-expert">Product Designer</p>
             </li>
-            <li>
-              <img
+            <li class="our-team-card">
+              <img class="image"
                 src="./images/Our-team/frontenddeveloper.jpg"
                 alt="Фронтэнд разработчик"
                 width="270"
@@ -117,13 +123,13 @@
               <p class="team-name">Ольга Репина</p>
               <p class="team-expert">Frontend Developer</p>
             </li>
-            <li>
-              <img src="./images/Our-team/marketing.jpg" alt="Маркетинг" width="270" />
+            <li class="our-team-card">
+              <img class="image" src="./images/Our-team/marketing.jpg" alt="Маркетинг" width="270" />
               <p class="team-name">Николай Тарасов</p>
               <p class="team-expert">Marketing</p>
             </li>
-            <li>
-              <img
+            <li class="our-team-card">
+              <img class="image"
                 src="./images/Our-team/uidesigner.jpg"
                 alt="Разработчик пользовательского интерфейса"
                 width="270"
@@ -141,7 +147,9 @@
     <footer class="page-footer">
       <div class="container">
         <a class="link" href="index.html"
-          ><p class="logo-footer"><span class="logoweb">Web</span><span class="logostudiofooter">Studio</span></p>
+          ><p class="logo-footer">
+            <span class="logoweb">Web</span><span class="logostudiofooter">Studio</span>
+          </p>
         </a>
         <address class="footer-сontact footer-box">
           <p class="address"><a class="link" href="">г. Киев, пр-т Леси Украинки, 26</a></p>
