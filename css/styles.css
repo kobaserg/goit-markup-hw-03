@@ -38,12 +38,14 @@ p {
     margin-bottom: 0;
 }
 /* сброс всех margin с тегов Н2 */
-h1,h2 {
+h1,
+h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
 .image {
     display: block;
+    width: 369px;
 }
 
 /* Логотип */
@@ -73,7 +75,7 @@ h1,h2 {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    outline: 5px solid #331e9e;
+    /*outline: 5px solid #331e9e;*/
 }
 
 .list-decor {
@@ -195,6 +197,9 @@ h1,h2 {
     background-color: #2F303A;
     height: 600px;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 280px;
+   
     
       
 }
@@ -207,14 +212,12 @@ h1,h2 {
     font-size: 44px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    padding-top: 200px;
-
     
     margin-left: auto;
     margin-right: auto;
     width: 696px;
     text-align: center;
+    padding-bottom: 30px;
     
 }
 
@@ -233,10 +236,9 @@ h1,h2 {
     
     letter-spacing: 0.06em;
     border-width: 0;
-
-    margin-top: 30px;
-}
     
+}
+
 
 .hero-button:focus,
 .hero-button:hover {
@@ -302,9 +304,7 @@ h1,h2 {
     justify-content: space-between;
 
 }
-.what-we-do-img {
-    
-}
+
 .sec-our-team {
     background-color: var(--secondary-bgc);
     
@@ -404,12 +404,6 @@ h1,h2 {
 .filter-flex {
     display: flex;
     flex-wrap: wrap;
-
-    /*outline: 1px solid #212121;*/
-    
-
-
-    
 }
 
 .filter-card {
@@ -419,6 +413,9 @@ h1,h2 {
     background: var(--portfolio-card-cl);
     border: 1px solid #EEEEEE;
     
+}
+.filter-card .title-filter {
+ border: 1px solid #EEEEEE;
 }
 
 
@@ -432,8 +429,6 @@ h1,h2 {
 .btn-flex {
     display: flex;
     justify-content: center;
-   
-    
 }
 .filter-button {
     
