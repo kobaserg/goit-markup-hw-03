@@ -110,7 +110,6 @@ h2 {
 }
 .header-flex {
     display: flex;
-    justify-content: space-between;  
 }
 
 .site-nav-flex {
@@ -136,6 +135,7 @@ h2 {
 .auth-nav-flex {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .auth-nav-flex .link {
