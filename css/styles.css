@@ -107,38 +107,38 @@ h2 {
 
 /* Стилизация NAV */
 .nav-box-flex {
-   display: flex;
-    
-    
+   display: flex;  
 }
 .header-flex {
     display: flex;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between;  
 }
+
 .site-nav-flex {
     display: flex;
     margin-left: 93px; 
-    align-items: center;
-    
-    
+    align-items: center;    
 }
+
 .site-nav-flex .link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 .site-nav-item {
     margin-right: 50px;
 }
+
 .site-nav-item:last-child {
     margin-right: 0;
 }
+
 .auth-nav-flex {
     display: flex;
     align-items: center;
 }
+
 .auth-nav-flex .link {
     display: block;
     padding-top: 32px;
@@ -147,7 +147,6 @@ h2 {
 
 .tel-position {
     margin-left: 50px;
- 
 }
 
 .site-nav .link {
@@ -155,7 +154,6 @@ h2 {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
-
 }
    
 .site-nav .link:focus,
@@ -171,9 +169,7 @@ h2 {
 .auth-nav .link {
     color: var(--main-text-cl) ;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    
+    font-size: 14px;   
 }
 
 .auth-nav .link:focus,
@@ -192,9 +188,6 @@ h2 {
     box-sizing: border-box;
     width: 145px;
     margin-bottom: 25px;
-
-   
-
 }
 /* Стилизация HERO */
 /*Отступы контента во всех секциях*/
@@ -264,7 +257,7 @@ h2 {
     line-height: 1.15;
     text-transform: uppercase;
     margin-top: 0px;
-    margin-bottom: 10px; /*проверить по нижнему контейнеру*/
+    margin-bottom: 10px; 
 }
 .our-priorities-box {
     display: flex;
@@ -300,15 +293,11 @@ h2 {
 
 .What-we-do-flex {
     display: flex;
-    /*margin-top: -30px;
-    margin-left: -30px;*/
     justify-content: space-between;
 
 }
 .what-we-do-img {
-    /*margin-left: 30px;
-    margin-top: 30px;
-    flex-basis: calc((100% - 90px) / 3);*/
+    
 }
 .sec-our-team {
     background-color: var(--secondary-bgc);
